@@ -35,7 +35,6 @@ urlpatterns = patterns('',
         (r'^login_process/$',views.login_process),
         (r'^logout/$',views.logout_view),
         (r'^login/$',views.login_view),
-        (r'^login_view/$',views.login_view),
 	
 	#(r'^select_test/$',views.select_paper_topics),
 	#(r'^genPaper/(?P<p_sub_id>-?\d*)/(?P<p_topic_id>-?\d*)/(?P<p_subTopic_id>-?\d*)/$',views.gen_paper),
