@@ -20,10 +20,10 @@ DATABASES = {
     # staging database
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'd23ogluv8012a5',                      # Or path to database file if using sqlite3.
-        'USER': 'slzecnmkgrzllu',                      # Not used with sqlite3.
-        'PASSWORD': 'c83e5534a7e21a98d0545db63a58190f6c96fcf3779f8f72dd0640959246e6ff',                  # Not used with sqlite3.
-        'HOST': 'ec2-54-225-67-3.compute-1.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
+        'NAME': 'd1vcv3lgo0kbuj',                      # Or path to database file if using sqlite3.
+        'USER': 'kmukyjudgfrycg',                      # Not used with sqlite3.
+        'PASSWORD': '1b85c3f37f02d85f60b4a4b7b9a883da656d5fb9f674385b52051ff46d35dcf6',                  # Not used with sqlite3.
+        'HOST': 'ec2-54-243-124-240.compute-1.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
     },
     # dev db
