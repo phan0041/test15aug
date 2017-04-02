@@ -61,7 +61,7 @@ def login_process(request):
             param={}
             param['user']='logined'
             # Redirect to a success page.
-            return render_to_response('add_math_admin_taglist.html')
+            return HttpResponseRedirect("/index/")
         else:
             return render_to_response('login_form.html')    
             # Return a 'disabled account' error message
